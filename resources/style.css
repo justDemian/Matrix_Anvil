@@ -107,6 +107,14 @@ footer {
     user-select: all;
 }
 
+#matrix_id {
+    width: 33%;
+    border: 0px;
+
+    background-color: rgb(26, 26, 26);
+    color: white;
+}
+
 /* Comportamientos */
 #add_matrix:hover {
     transform: scale(1.1);
