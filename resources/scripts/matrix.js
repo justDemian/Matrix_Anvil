@@ -34,6 +34,10 @@ class Matrix {
   get dimensions() {
     return { rows: this.data.length, cols: this.data[0]?.length || 0 };
   }
+
+  get code() {
+    return this.code;
+  }
 }
 
 var test_matrix = new Matrix("A[1,2,3][4,5,6][7,8,9]")
